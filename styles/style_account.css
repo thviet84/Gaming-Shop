@@ -1,0 +1,27 @@
+
+.account {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.account label {
+    width: 165px;
+    align-items: left;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.group-input input {
+    width: 300px;
+}
+
+.account {
+    align-items: center;
+    width: 500px;
+}
+
+.account button {
+    margin-left: 100px;
+    margin-right: 100px;
+}

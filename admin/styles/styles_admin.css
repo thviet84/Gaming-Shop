@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-size: 100%;
+     font: inherit;
+    vertical-align: baseline; */
+}
+
+
+
+body {
+    font-family: Bookman, Tahoma, Verdana;
+}
+
+body {
+    line-height: 1.42857143;
+    /*font-family: Bookman, Tahoma, Verdana;*/ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d2129;
+    font-size: 14px;
+    background-size: cover;
+    min-width: 1200px;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.main-wrapper {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(233, 235, 238);
+}
+
+.navigation-bar {
+    max-width: 100%;
+    line-height: 1.42857143;
+    color: #1d2129;
+    font-size: 17px;
+    align-items: center;
+    background-color: #f22726;
+    background-image: url('http://luatbaoviet.com/wp-content/uploads/sites/60/2020/02/Vignettel.jpg');
+    display: flex;
+    height: 100px;
+    left: 0;
+    padding-left: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.actionhotline {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    padding: 5px 15px;
+    border: white solid 1px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.user {
+    margin-right: 100px;
+}
+
+.actionhotline i {
+    padding-right: 5px;
+}
+
+
+/* seacrh */
+
+.name-shop {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding-top: 15px;
+    height: 56px;
+    left: 670px;
+    line-height: 39px;
+    position: absolute;
+    transform: matrix(1, 0, 0, 1, -165, 0);
+    width: 330.313px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.name-shop h3 {
+    font-size: 35px;
+    
+}
+
+.user {
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: flex;
+    font-size: 14px;
+    height: 38px;
+    line-height: 20px;
+    margin-left: 652.359px;
+    width: 211.641px;
+    -webkit-box-align: center;
+}
+
+.side-nav {
+    font-weight: lighter;
+    background-color: rgb(233, 235, 238);
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: inline-block;
+    font-size: 10px;
+    height: 310px;
+    left: 0px;
+    line-height: 20px;
+    position: sticky;
+    top: 100px;
+    vertical-align: top;
+    width: 200px;
+    z-index: 1;
+}
+
+.side-nav ul {
+    list-style-type: none;
+}
+
+.side-nav a {
+    line-height: 70px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.side-nav a {
+    text-decoration: none;
+    align-items: center;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    font-size: 17px;
+    height: 50px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-top: 10px;
+    /* position:relative; */
+    text-decoration-color: rgb(139, 139, 139);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    white-space: nowrap;
+    width: 190px;
+    -webkit-box-align: center;
+}
+
+.side-nav a:hover {
+    color: red;
+}
+
+.side-nav i {
+    margin-right: 8px;
+}
+
+.sidenav {
+    top: 100px;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: rgb(226, 226, 226);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+/* Style the sidenav links and the dropdown button */
+
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #3a3a3a;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* On mouse-over */
+
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+
+/* Main content */
+
+.main {
+    margin-top: 20px;
+    margin-left: 220px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+
+/* Add an active class to the active dropdown button */
+
+.active {
+    background-color: #f22726;
+    color: white;
+}
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.dropdown-container {
+    display: none;
+    background-color: #d1d1d1;
+    padding-left: 8px;
+}
+
+
+/* Optional: Style the caret down icon */
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+
+/* Some media queries for responsiveness */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.page-container {
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: inline-block;
+    font-size: 14px;
+    height: 4583.17px;
+    line-height: 20px;
+    min-width: 1000px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    width: 1000px;
+}
+
+.page-wrapper {
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: block;
+    font-size: 14px;
+    height: 702px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    max-width: 1147px;
+    width: 968px;
+}
+
+
+.btn-submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    /* border-radius */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    border-top: 1px solid rgb(172, 172, 172);
+    color: rgb(129, 129, 129);
+}
+
+thead {
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+th {
+    height: 50px;
+    width: auto;
+    border-top: 1px solid #dddddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(80, 80, 80);
+}
+
+
+/* side dropdownbar */
+
+
+/* box */
+
+.container {
+    width: 100%;
+    max-width: auto;
+    float: none;
+    clear: none;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content {
+    width: 75%;
+    float: left;
+}
+
+.content_box {
+    padding: 15px;
+}
+
+
+/* Add Product Here */
+
+.border_bottom {
+    border-bottom: 0.01px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.form_box input[type="text"] {
+    padding: 3px 10px;
+    margin: 5px 0;
+}
+
+.form_box select {
+    width: 40%;
+    padding: 3px 10px;
+    margin: 5px 0;
+}
+
+.form_box input[type="file"] {
+    margin: 5px 0;
+}
+
+.form_box textarea {
+    width: 80%;
+}
+
+.form_box input[type="submit"] {
+    padding: 10px 15px;
+    background: rgba(28, 130, 199, 0.9);
+    border: 0.01px solid rgba(28, 130, 199, 0.8);
+    color: white;
+}
+
+
+/** Add Product Ends */
+
+
+/** View Product Starts **/
+
+.search_bar {
+    float: right;
+    margin-bottom: 15px;
+}
+
+.search_bar input[type="text"] {
+    padding: 3px 7px;
+}
+
+.view_product_box th,
+.view_product_box td {
+    text-align: left;
+}
+
+.view_product_box input[type="submit"] {
+    padding: 10px 15px;
+    background: rgba(250, 32, 32, 0.9);
+    border: 0.01px solid rgba(250, 32, 32, 0.9);
+    color: white;
+}
+
+.view_product_box h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/** View Product Ends **/
+
+
+/* Form box */
+
+.form_box h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+}

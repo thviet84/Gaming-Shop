@@ -1,0 +1,454 @@
+body {
+    line-height: 1.42857143;
+    /*font-family: Bookman, Tahoma, Verdana;*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d2129;
+    font-size: 14px;
+    background-size: cover;
+    min-width: 1200px;
+    margin: 0;
+    padding: 0 !important;
+    background-color: rgb(233, 235, 238);
+    height: 100%;
+}
+
+.main-wrapper {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background-color: rgb(233, 235, 238);
+}
+
+.navigation-bar {
+    max-width: 100%;
+    line-height: 1.42857143;
+    color: #1d2129;
+    font-size: 17px;
+    align-items: center;
+    background-color: #f22726;
+    background-image: url('http://luatbaoviet.com/wp-content/uploads/sites/60/2020/02/Vignettel.jpg');
+    display: flex;
+    height: 100px;
+    left: 0;
+    padding-left: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.actionhotline {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    padding: 5px 15px;
+    border: white solid 1px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.user {
+    margin-right: 100px;
+}
+
+.actionhotline i {
+    padding-right: 5px;
+}
+
+
+/* seacrh */
+
+.name-shop {
+    text-align: center;
+    font-family: "Lobster", serif;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding-top: 15px;
+    height: 56px;
+    left: 674.5px;
+    line-height: 39px;
+    position: absolute;
+    transform: matrix(1, 0, 0, 1, -165, 0);
+    width: 330.313px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.name-shop h3 {
+    font-size: 35px;
+}
+
+.user {
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: flex;
+    font-size: 14px;
+    height: 38px;
+    line-height: 20px;
+    margin-left: 652.359px;
+    width: 211.641px;
+    -webkit-box-align: center;
+}
+
+.side-nav {
+    font-weight: lighter;
+    background-color: rgb(233, 235, 238);
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: inline-block;
+    font-size: 10px;
+    height: 310px;
+    left: 0px;
+    line-height: 20px;
+    position: sticky;
+    top: 100px;
+    vertical-align: top;
+    width: 200px;
+    z-index: 1;
+}
+
+.side-nav ul {
+    list-style-type: none;
+}
+
+.side-nav a {
+    line-height: 70px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.side-nav a {
+    text-decoration: none;
+    align-items: center;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    font-size: 17px;
+    height: 50px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-top: 10px;
+    /* position:relative; */
+    text-decoration-color: rgb(139, 139, 139);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    white-space: nowrap;
+    width: 190px;
+    -webkit-box-align: center;
+}
+
+.side-nav a:hover {
+    color: red;
+}
+
+.side-nav i {
+    margin-right: 8px;
+}
+
+.dropdown-btn1{
+    font-size: 17px;
+}
+
+.info {
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: inline-flex;
+    font-size: 14px;
+    height: 60px;
+    line-height: 20px;
+    max-width: 100%;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 25px;
+    padding-top: 20px;
+    position: relative;
+    width: 179.391px;
+    -webkit-box-align: center;
+}
+
+.topbar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.topbar li {
+    list-style: none;
+}
+
+.topbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(153, 153, 153);
+    border-radius: 4px;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.topbar {
+    display: flex;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.topbar li :hover {
+    background: red;
+    color: white;
+}
+
+.topbar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.page-container {
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    min-width: 1000px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    width: 1100px;
+}
+
+.page-wrapper {
+    box-sizing: border-box;
+    color: rgb(29, 33, 41);
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    max-width: 1147px;
+    width: 968px;
+}
+
+
+/*Profile Card 5*/
+
+.card-body {
+    height: 100%;
+}
+
+.profile-card-5 {
+    margin-top: 20px;
+    border-radius: 7px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.profile-card-5 .btn {
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 7px 20px;
+    margin-left: 5px;
+}
+
+.profile-card-5 .card-img-block {
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    top: -20px;
+}
+
+.profile-card-5 .card-img-block img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+}
+
+.profile-card-5 h5 {
+    color: #4e5e30;
+    font-weight: 600;
+}
+
+.profile-card-5 p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.profile-card-5:hover {
+    transform: translateY(-5px);
+}
+
+.profile-card-5 .btn-primary {
+    background-color: #4e5e30;
+    border-color: #4e5e30;
+}
+
+.profile-card-5 .btn-primary a:hover {
+    background-color: rgb(0, 255, 55);
+    color: rgb(255, 255, 255);
+}
+
+.bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.price-new {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(170, 0, 0);
+    font-family: "Montserrat", sans-serif;
+}
+
+.price-old {
+    color: #999;
+}
+
+.price-wrap a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.price-wrap a:hover {
+    padding: 2px 5px;
+    font-weight: normal;
+    background-color: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Signin */
+
+.login-sign {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-sign h5 {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 300;
+    /* margin-left: 60px; */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-sign div {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.login-sign label {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.group-input {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.group-input a {
+    padding-right: 10px;
+    float: right;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 100;
+    color: teal;
+}
+
+.group-input a:hover {
+    text-decoration: none;
+}
+
+.login-sign input {
+    border-radius: 20px;
+    background-color: rgb(159, 212, 255);
+    padding: 5px 15px;
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+.login-sign button {
+    border-radius: 20px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 5px 15px;
+    width: 300px;
+    height: 40px;
+}
+
+.sign-in {
+    margin-top: 20px;
+}
+
+.login-sign button,
+input {
+    border: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.footer {
+    text-justify: center;
+    height: 40px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    bottom: 0px;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.footer-div {
+    font-size: 15px;
+}
+
+.footer-div {
+    text-decoration: none;
+}
+
+
+/* End Signin */

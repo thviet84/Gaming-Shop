@@ -1,0 +1,52 @@
+/* Order */
+
+h5 {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: rgb(150, 150, 150);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+    text-align: center;
+}
+
+.order-wrapper table {
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    /* border-radius */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+}
+
+.order-wrapper th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+.order-wrapper td {
+    border-top: 1px solid rgb(172, 172, 172);
+    color: rgb(66, 66, 66);
+}
+
+.order-wrapper th {
+    border-top: 1px solid #dddddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(126, 126, 126);
+}

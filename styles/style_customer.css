@@ -1,0 +1,158 @@
+.btn-submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    /* border-radius */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    border-top: 1px solid rgb(172, 172, 172);
+    color: rgb(129, 129, 129);
+}
+
+thead {
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+th {
+    height: 50px;
+    width: auto;
+    border-top: 1px solid #dddddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(80, 80, 80);
+}
+
+
+/* side dropdownbar */
+
+
+/* box */
+
+.container {
+    width: 100%;
+    max-width: auto;
+    float: none;
+    clear: none;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content {
+    width: 75%;
+    float: left;
+}
+
+.content_box {
+    padding: 15px;
+}
+
+
+/* Add Product Here */
+
+.border_bottom {
+    border-bottom: 0.01px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.form_box input[type="text"] {
+    padding: 3px 10px;
+    margin: 5px 0;
+}
+
+.form_box select {
+    width: 40%;
+    padding: 3px 10px;
+    margin: 5px 0;
+}
+
+.form_box input[type="file"] {
+    margin: 5px 0;
+}
+
+.form_box textarea {
+    width: 80%;
+}
+
+.form_box input[type="submit"] {
+    padding: 10px 15px;
+    background: rgba(28, 130, 199, 0.9);
+    border: 0.01px solid rgba(28, 130, 199, 0.8);
+    color: white;
+}
+
+
+/** Add Product Ends */
+
+
+/** View Product Starts **/
+
+.search_bar {
+    float: right;
+    margin-bottom: 15px;
+}
+
+.search_bar input[type="text"] {
+    padding: 3px 7px;
+}
+
+.view_product_box th,
+.view_product_box td {
+    text-align: left;
+}
+
+.view_product_box input[type="submit"] {
+    padding: 10px 15px;
+    background: rgba(250, 32, 32, 0.9);
+    border: 0.01px solid rgba(250, 32, 32, 0.9);
+    color: white;
+}
+
+.view_product_box h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/** View Product Ends **/
+
+
+/* Form box */
+
+.form_box h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
